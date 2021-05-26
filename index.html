@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    header {
+  padding: 5px;
+  text-align: center;
+  background: #0a0a0a;
+  color: #ffffff;
+  font-size: 15px;
+}
+    footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  
+  background-image: url("image1.jpg");
+
+ 
+  height: 100%; 
+
+ 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  border: none;
+}
+
+.col-6 {width: 50%;}
+.button {
+    background-color: rgb(16, 139, 88);
+  border: none;
+  color: rgb(231, 235, 233);
+  padding: 15px 32px;
+  text-align: center;
+  
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+</style>
+</head>
+<header>
+
+    <h1> My Portfolio Website ^_^ </h1>
+</header>
+<body>
+
+<div class="bg">
+    <!-- <h1 style="text-align:center;padding-top:5vh;"> <i>Welcome to My PORTFOLIO </i></h1> -->
+
+    <div class="row">
+        <div class="col-6">
+            
+            <img src="image2.jpg" style= "padding-left:10%; padding-top: 5%;" width="60%" height="auto">
+            <p style="font-size:30px;  padding-left: 200px;" >Malindu De Silva</p>
+        </div>
+        
+        <div class="col-6">
+        <h2 style="padding-right: 50%;"><b>About Me</b></h2>
+        <p style="font-size: 20px;">I am Malindu de Silva, Undergraduate at University of Colombo School of Computing.I am from Badulla and I completed my O/l and A/L at Badulla Central College.I am 20 years old.I have a sister and no brothers.I am the elder one of my family.Travelling is my hobby. </p>
+        <p style="font-size: 20px;">I have mentioned my O/L and A/L results.you can view it by clicking below buttons.</p>
+        <br><br>
+        <div class="row" style="text-align: center;">
+            <button class="button"><a href="ol.html">O/L Results!</a></button>
+            <button class="button"><a href="al.html">A/LResults! </a></button>
+        </div>
+        
+       
+    </div>
+
+
+</div>
+
+
+
+</body>
+<footer>
+    <p>Author: Malindu De Silva</p>
+    <p><a href="mailto:malidupasan@gmail.com">malidupasan@gmail.com</a></p>
+  </footer>
+
+</html>
